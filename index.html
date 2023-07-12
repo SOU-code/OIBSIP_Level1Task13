@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ecd6c1b7a4.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <div class="temperature-converter">
+      <div class="heading">
+        <h1>
+          Temperature Converter
+          <span class="temp-logo">
+            <i class="fa-solid fa-temperature-high"></i>
+          </span>
+        </h1>
+      </div>
+      <div class="temperature-input">
+        <div class="celsius">
+          <input type="number" placeholder="celsius" id="celu" />
+          <span class="logo">&#8451;</span>
+        </div>
+        <div class="farenhite">
+          <input type="number" placeholder="farenhite" id="faru" />
+          <span class="logo">&#8457;</span>
+        </div>
+        <div class="kelvin">
+          <input type="number" placeholder="kelvin" id="kelu" />
+          <span class="logo">&#8490;</span>
+        </div>
+      </div>
+      <div class="clear">
+        <button onclick="clearFunction()">Clear All</button>
+      </div>
+    </div>
+  </body>
+</html>
